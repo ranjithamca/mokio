@@ -397,7 +397,7 @@ DEPENDENCIES
   annotate!
   better_errors
   binding_of_caller
-  capybara (~> 2.2, >= 2.2.1)
+#  capybara (~> 2.2, >= 2.2.1)
   deface
   factory_girl_rails
   faker
@@ -413,7 +413,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails_serve_static_assets
   rails_stdout_logging
-  rspec (~> 2.14, >= 2.14.1)
+ # rspec (~> 2.14, >= 2.14.1)
   rspec-rails
   sdoc
   selenium-webdriver
