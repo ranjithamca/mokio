@@ -195,6 +195,7 @@ GEM
       railties (>= 3.2.16)
     json (1.8.3)
     jwt (1.5.1)
+    kgio (2.10.0)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -268,6 +269,7 @@ GEM
       activesupport (= 4.1.1)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
+    raindrops (0.16.0)
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
@@ -358,6 +360,10 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unicorn (5.0.1)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
     validates (0.0.8)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -411,6 +417,7 @@ DEPENDENCIES
   sdoc
   selenium-webdriver
   simplecov
+  unicorn
 
 BUNDLED WITH
    1.11.2

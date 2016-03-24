@@ -90,4 +90,5 @@ Gem::Specification.new do |s|
 #  s.add_development_dependency 'rspec',              '~> 2.14',  '>= 2.14.1'
  # s.add_development_dependency 'capybara',           '~> 2.2',   '>= 2.2.1'
   s.add_development_dependency 'factory_girl_rails', '~> 4.4',   '>= 4.4.1'
+ s.add_development_dependency  'unicorn',            '~> 5.0',   '>= 5.0.1'
 end

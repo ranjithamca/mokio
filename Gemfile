@@ -54,8 +54,7 @@ group :development, :test do
 end
 
 gem 'haml2slim'
-
-
+gem 'unicorn'
 
 
 
